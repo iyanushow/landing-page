@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Styled } from 'theme-ui';
+import { Box } from 'theme-ui';
 import { Scrollbars } from 'react-custom-scrollbars';
 import Drawer from 'components/drawer';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';

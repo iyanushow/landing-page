@@ -1,11 +1,6 @@
-## Getting Started
+## Overview
 
-Install the dependencies and run the development server
+An SPA concept for a startup, built with nextjs and deployed on vercel.
+UI markup can be found at [startupland](https://startuplanding.redq.io/)
 
-```bash
-npm install
-npm run dev
-# or
-yarn
-yarn dev
-```
+View Live app at [shadyland](https://shadyland.vercel.app)
