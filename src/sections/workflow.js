@@ -7,26 +7,22 @@ const data = [
   {
     id: 1,
     title: 'Set disbursement Instructions',
-    text:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi a voluptatum, quasi harum nihil minima.',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi a voluptatum, quasi harum nihil minima.',
   },
   {
     id: 2,
     title: 'Assembly retrieves funds from your account',
-    text:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi a voluptatum, quasi harum nihil minima.',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi a voluptatum, quasi harum nihil minima.',
   },
   {
     id: 3,
     title: 'Assembly initiates disbursement',
-    text:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi a voluptatum, quasi harum nihil minima.',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi a voluptatum, quasi harum nihil minima.',
   },
   {
     id: 4,
     title: 'Customer receives funds payment',
-    text:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi a voluptatum, quasi harum nihil minima.',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi a voluptatum, quasi harum nihil minima.',
   },
 ];
 
@@ -54,7 +50,7 @@ export default function WorkFlow() {
 const styles = {
   workflow: {
     backgroundColor: 'primary',
-    backgroundImage: `url('../assets/patternBG.png')`,
+    backgroundImage: `url('/assets/patternBG.png')`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'center center',
     backgroundSize: 'cover',
@@ -89,10 +85,10 @@ const styles = {
       },
     },
     '&:nth-of-type(2n-1)::before': {
-      backgroundImage: `url('../assets/arrowOdd.svg')`,
+      backgroundImage: `url('/assets/arrowOdd.svg')`,
     },
     '&:nth-of-type(2n)::before': {
-      backgroundImage: `url('../assets/arrowEven.svg')`,
+      backgroundImage: `url('/assets/arrowEven.svg')`,
       top: 17,
     },
     '&:last-child::before': {

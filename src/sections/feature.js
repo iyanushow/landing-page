@@ -7,35 +7,31 @@ import FeatureCard from 'components/feature-card.js';
 const data = [
   {
     id: 1,
-    src: '../assets/feature/performance.svg',
+    src: '/assets/feature/performance.svg',
     alt: 'Fast Performance',
     title: 'Fast Performance',
-    text:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet recusandae explicabo voluptas ipsum architecto et praesentium incidunt facilis aliquam tenetur neque, nobis ducimus voluptate corrupti consequatur natus repellat odio dolores!',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet recusandae explicabo voluptas ipsum architecto et praesentium incidunt facilis aliquam tenetur neque, nobis ducimus voluptate corrupti consequatur natus repellat odio dolores!',
   },
   {
     id: 2,
-    src: '../assets/feature/partnership.svg',
+    src: '/assets/feature/partnership.svg',
     alt: 'Pro Subscription',
     title: 'Pro Subscription',
-    text:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet recusandae explicabo voluptas ipsum architecto et praesentium incidunt facilis aliquam tenetur neque, nobis ducimus voluptate corrupti consequatur natus repellat odio dolores!',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet recusandae explicabo voluptas ipsum architecto et praesentium incidunt facilis aliquam tenetur neque, nobis ducimus voluptate corrupti consequatur natus repellat odio dolores!',
   },
   {
     id: 3,
-    src: '../assets/feature/subscription.svg',
+    src: '/assets/feature/subscription.svg',
     alt: 'Partnership deal',
     title: 'Partnership deal',
-    text:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet recusandae explicabo voluptas ipsum architecto et praesentium incidunt facilis aliquam tenetur neque, nobis ducimus voluptate corrupti consequatur natus repellat odio dolores!',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet recusandae explicabo voluptas ipsum architecto et praesentium incidunt facilis aliquam tenetur neque, nobis ducimus voluptate corrupti consequatur natus repellat odio dolores!',
   },
   {
     id: 4,
-    src: '../assets/feature/support.svg',
+    src: '/assets/feature/support.svg',
     alt: 'Customer Support',
     title: 'Customer Support',
-    text:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet recusandae explicabo voluptas ipsum architecto et praesentium incidunt facilis aliquam tenetur neque, nobis ducimus voluptate corrupti consequatur natus repellat odio dolores!',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet recusandae explicabo voluptas ipsum architecto et praesentium incidunt facilis aliquam tenetur neque, nobis ducimus voluptate corrupti consequatur natus repellat odio dolores!',
   },
 ];
 

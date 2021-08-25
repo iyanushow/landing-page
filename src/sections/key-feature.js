@@ -7,35 +7,31 @@ import FeatureCardColumn from 'components/feature-card-column.js';
 const data = [
   {
     id: 1,
-    src: '../assets/key-feature/performance.svg',
+    src: '/assets/key-feature/performance.svg',
     alt: 'Fast Performance',
     title: 'Fast Performance',
-    text:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quaerat consequatur reprehenderit dignissimos ut nobis!',
+    text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quaerat consequatur reprehenderit dignissimos ut nobis!',
   },
   {
     id: 2,
-    src: '../assets/key-feature/partnership.svg',
+    src: '/assets/key-feature/partnership.svg',
     alt: 'Partnership deal',
     title: 'Partnership deal',
-    text:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quaerat consequatur reprehenderit dignissimos ut nobis!',
+    text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quaerat consequatur reprehenderit dignissimos ut nobis!',
   },
   {
     id: 3,
-    src: '../assets/key-feature/subscription.svg',
+    src: '/assets/key-feature/subscription.svg',
     alt: 'Pro Subscription',
     title: 'Pro Subscription',
-    text:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quaerat consequatur reprehenderit dignissimos ut nobis!',
+    text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quaerat consequatur reprehenderit dignissimos ut nobis!',
   },
   {
     id: 4,
-    src: '../assets/key-feature/support.svg',
+    src: '/assets/key-feature/support.svg',
     alt: 'Customer Support',
     title: 'Customer Support',
-    text:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quaerat consequatur reprehenderit dignissimos ut nobis!',
+    text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quaerat consequatur reprehenderit dignissimos ut nobis!',
   },
 ];
 

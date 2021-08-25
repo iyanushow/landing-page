@@ -25,9 +25,9 @@ export default function CoreFeature() {
           />
         </Box>
         <Box sx={styles.thumbnail}>
-          <Image src='../assets/core-feature.png' alt='Thumbnail' />
+          <Image src='/assets/core-feature.png' alt='Thumbnail' />
           <Box sx={styles.shapeBox}>
-            <Image src='../assets/shape2.png' alt='Shape' />
+            <Image src='/assets/shape2.png' alt='Shape' />
           </Box>
         </Box>
       </Container>

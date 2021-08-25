@@ -14,19 +14,17 @@ const data = {
   features: [
     {
       id: 1,
-      imgSrc: '../assets/services/smart.svg',
+      imgSrc: '/assets/services/smart.svg',
       altText: 'Smart Features',
       title: 'Smart Features',
-      text:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique enim earum corporis numquam accusamus iste totam consequuntur animi tempora.',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique enim earum corporis numquam accusamus iste totam consequuntur animi tempora.',
     },
     {
       id: 2,
-      imgSrc: '../assets/services/secure.svg',
+      imgSrc: '/assets/services/secure.svg',
       altText: 'Secure Contents',
       title: 'Secure Contents',
-      text:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique enim earum corporis numquam accusamus iste totam consequuntur animi tempora.',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique enim earum corporis numquam accusamus iste totam consequuntur animi tempora.',
     },
   ],
 };
@@ -41,14 +39,14 @@ export default function ServiceSection() {
     <section sx={{ variant: 'section.services' }}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src='../assets/service-thumb.png' alt='thumbnail' />
+          <Image src='/assets/service-thumb.png' alt='thumbnail' />
           <Button sx={styles.videoBtn} onClick={handleClick} aria-label='Play'>
             <span>
               <IoIosPlay />
             </span>
           </Button>
           <Box sx={styles.shapeBox}>
-            <Image src='../assets/shape1.png' alt='shape' />
+            <Image src='/assets/shape1.png' alt='shape' />
           </Box>
         </Box>
         <Box sx={styles.contentBox}>
