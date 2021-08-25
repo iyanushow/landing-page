@@ -54,7 +54,7 @@ export default function WorkFlow() {
 const styles = {
   workflow: {
     backgroundColor: 'primary',
-    backgroundImage: `url('assets/patternBG.png')`,
+    backgroundImage: `url('../assets/patternBG.png')`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'center center',
     backgroundSize: 'cover',
@@ -89,10 +89,10 @@ const styles = {
       },
     },
     '&:nth-of-type(2n-1)::before': {
-      backgroundImage: `url('assets/arrowOdd.svg')`,
+      backgroundImage: `url('../assets/arrowOdd.svg')`,
     },
     '&:nth-of-type(2n)::before': {
-      backgroundImage: `url('assets/arrowEven.svg')`,
+      backgroundImage: `url('../assets/arrowEven.svg')`,
       top: 17,
     },
     '&:last-child::before': {

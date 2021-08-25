@@ -8,7 +8,7 @@ export default function Footer() {
       <Container>
         <Box sx={styles.footer.footerBottomArea}>
           <Link path='/'>
-            <Image src='assets/logo.svg' alt='Logo' />
+            <Image src='../../assets/logo.svg' alt='Logo' />
           </Link>
 
           <Text sx={styles.footer.copyright}>Copyright {new Date().getFullYear()} Shady-Dev </Text>

@@ -17,7 +17,7 @@ export default function Banner() {
           <Button variant='primary'>Learn More</Button>
         </Box>
         <Box sx={styles.banner.imageBox}>
-          <Image src='assets/banner-thumb.png' alt='banner' />
+          <Image src='../assets/banner-thumb.png' alt='banner' />
         </Box>
       </Container>
     </section>

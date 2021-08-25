@@ -7,7 +7,7 @@ import FeatureCard from 'components/feature-card.js';
 const data = [
   {
     id: 1,
-    src: 'assets/feature/performance.svg',
+    src: '../assets/feature/performance.svg',
     alt: 'Fast Performance',
     title: 'Fast Performance',
     text:
@@ -15,7 +15,7 @@ const data = [
   },
   {
     id: 2,
-    src: 'assets/feature/partnership.svg',
+    src: '../assets/feature/partnership.svg',
     alt: 'Pro Subscription',
     title: 'Pro Subscription',
     text:
@@ -23,7 +23,7 @@ const data = [
   },
   {
     id: 3,
-    src: 'assets/feature/subscription.svg',
+    src: '../assets/feature/subscription.svg',
     alt: 'Partnership deal',
     title: 'Partnership deal',
     text:
@@ -31,7 +31,7 @@ const data = [
   },
   {
     id: 4,
-    src: 'assets/feature/support.svg',
+    src: '../assets/feature/support.svg',
     alt: 'Customer Support',
     title: 'Customer Support',
     text:
