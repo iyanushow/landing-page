@@ -3,13 +3,10 @@ import React, { useState } from 'react';
 import { jsx, Container, Box, Grid, Text, Heading, Button, Image } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import TextFeature from 'components/text-feature';
-import ModalVideo from 'react-modal-video';
 import { IoIosPlay } from 'react-icons/io';
+import dynamic from 'next/dynamic';
 
-// import ServiceThumb from '/assets/service-thumb.png';
-
-// import Smart from '/assets/services/smart.svg';
-// import Secure from '/assets/services/secure.svg';
+const ModalVideo = dynamic(() => import('react-modal-video'), { ssr: false });
 
 const data = {
   subTitle: 'our services',
