@@ -12,7 +12,7 @@ export default function Header({ className }) {
     <header sx={styles.header} className={className} id='header'>
       <Container sx={styles.container}>
         <MobileDrawer />
-        <Logo src='../../assets/logo.svg' />
+        <Logo src='src/assets/logo.svg' />
         <Flex as='nav' sx={styles.nav}>
           {menuItems?.map(({ path, label }, i) => (
             <Link
