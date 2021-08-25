@@ -1,21 +1,14 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Grid } from 'theme-ui';
-import SectionHeader from 'components/section-header';
 import TeamCard from 'components/team-card';
+import SectionHeader from 'components/section-header';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
-
-import Member1 from 'assets/team/member-1.png';
-import Member2 from 'assets/team/member-2.png';
-import Member3 from 'assets/team/member-3.png';
-import Member4 from 'assets/team/member-4.png';
-import Member5 from 'assets/team/member-5.png';
-import Member6 from 'assets/team/member-6.png';
 
 const data = [
   {
     id: 1,
-    src: Member1,
+    src: '/assets/team/member-1.png',
     alt: 'Jadon Alto',
     title: 'Jadon Alto',
     designation: 'CEO|CTO',
@@ -42,7 +35,7 @@ const data = [
   },
   {
     id: 2,
-    src: Member2,
+    src: '/assets/team/member-2.png',
     alt: 'Aaron McGivney',
     title: 'Aaron McGivney',
     designation: 'Tech Lead',
@@ -69,7 +62,7 @@ const data = [
   },
   {
     id: 3,
-    src: Member3,
+    src: '/assets/team/member-3.png',
     alt: 'Aaron McGivney',
     title: 'Aaron McGivney',
     designation: 'Web Designer',
@@ -96,7 +89,7 @@ const data = [
   },
   {
     id: 4,
-    src: Member4,
+    src: '/assets/team/member-4.png',
     alt: 'Marshall Mathers',
     title: 'Marshall Mathers',
     designation: 'Web Developer',
@@ -123,7 +116,7 @@ const data = [
   },
   {
     id: 5,
-    src: Member5,
+    src: '/assets/team/member-5.png',
     alt: 'Jadon Alto',
     title: 'Jadon Alto',
     designation: 'CEO|CTO',
@@ -150,7 +143,7 @@ const data = [
   },
   {
     id: 6,
-    src: Member6,
+    src: '/assets/team/member-6.png',
     alt: 'Aaron McGivney',
     title: 'Aaron McGivney',
     designation: 'Web Designer',

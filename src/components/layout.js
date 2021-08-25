@@ -1,9 +1,10 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
 import React, { useState } from 'react';
-import Sticky from 'react-stickynode';
+
+import { jsx } from 'theme-ui';
 import Header from './header/header';
 import Footer from './footer/footer';
+import Sticky from 'react-stickynode';
 
 export default function Layout({ children }) {
   const [isSticky, setIsSticky] = useState(false);

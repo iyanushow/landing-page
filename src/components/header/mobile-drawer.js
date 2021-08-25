@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Box } from 'theme-ui';
-import { Scrollbars } from 'react-custom-scrollbars';
-import Drawer from 'components/drawer';
-import { IoMdClose, IoMdMenu } from 'react-icons/io';
 import { Link } from 'react-scroll';
-import { FaTwitter, FaGithubAlt, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 import menuItems from './header.data';
+import Drawer from 'components/drawer';
+import { Scrollbars } from 'react-custom-scrollbars';
+import { IoMdClose, IoMdMenu } from 'react-icons/io';
+import { FaTwitter, FaGithubAlt, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 
 const socials = [
   {
