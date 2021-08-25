@@ -8,7 +8,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 const data = [
   {
     id: 1,
-    src: '/assets/team/member-1.png',
+    src: 'assets/team/member-1.png',
     alt: 'Jadon Alto',
     title: 'Jadon Alto',
     designation: 'CEO|CTO',
@@ -35,7 +35,7 @@ const data = [
   },
   {
     id: 2,
-    src: '/assets/team/member-2.png',
+    src: 'assets/team/member-2.png',
     alt: 'Aaron McGivney',
     title: 'Aaron McGivney',
     designation: 'Tech Lead',
@@ -62,7 +62,7 @@ const data = [
   },
   {
     id: 3,
-    src: '/assets/team/member-3.png',
+    src: 'assets/team/member-3.png',
     alt: 'Aaron McGivney',
     title: 'Aaron McGivney',
     designation: 'Web Designer',
@@ -89,7 +89,7 @@ const data = [
   },
   {
     id: 4,
-    src: '/assets/team/member-4.png',
+    src: 'assets/team/member-4.png',
     alt: 'Marshall Mathers',
     title: 'Marshall Mathers',
     designation: 'Web Developer',
@@ -116,7 +116,7 @@ const data = [
   },
   {
     id: 5,
-    src: '/assets/team/member-5.png',
+    src: 'assets/team/member-5.png',
     alt: 'Jadon Alto',
     title: 'Jadon Alto',
     designation: 'CEO|CTO',
@@ -143,7 +143,7 @@ const data = [
   },
   {
     id: 6,
-    src: '/assets/team/member-6.png',
+    src: 'assets/team/member-6.png',
     alt: 'Aaron McGivney',
     title: 'Aaron McGivney',
     designation: 'Web Designer',
